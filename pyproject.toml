@@ -1,0 +1,20 @@
+[project]
+name = "Mini Todo"
+version = "0.1.0"
+description = "Just for fun"
+requires-python = ">=3.12"
+authors = [
+    { name = "Simon Yen", email = "simonyen980821@gmail.com" }
+]
+dependencies = [
+    "flet[all]>=0.28.3",
+]
+
+[tool.flet]
+org = "com.fukagawa"
+product = "MiniTodo"
+company = "NULL"
+copyright = "Copyright (C) 2025 by Simon Yen"
+
+[tool.flet.app]
+path = "src"
