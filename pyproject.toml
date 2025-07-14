@@ -1,13 +1,13 @@
 [project]
-name = "Mini Todo"
-version = "0.1.0"
+name = "MiniTodo"
+version = "1.0.0"
 description = "Just for fun"
 requires-python = ">=3.12"
 authors = [
     { name = "Simon Yen", email = "simonyen980821@gmail.com" }
 ]
 dependencies = [
-    "flet[all]>=0.28.3",
+    "flet",
 ]
 
 [tool.flet]
